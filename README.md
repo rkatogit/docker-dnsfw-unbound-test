@@ -7,7 +7,7 @@ Simple test for Unbound with ThreatSTOP(SIEM Integration;ThreatList csv format) 
 
 ```
 $ docker build -t unbound-test:1 .
-$ docker run -p 53:53/udp --name unbound_ts -it unbound-test:1
+$ docker run -d -p 53:53/udp --name unbound_ts -it unbound-test:1
 $ docker exec -it unbound_ts bash
 ```
 ## Usage
