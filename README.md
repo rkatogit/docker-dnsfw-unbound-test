@@ -34,5 +34,4 @@ $ dig @127.0.0.1 bad.threatstop.com
 
 ## Link
 [ThreatSTOP documentation](https://docs.threatstop.com/)  
-[NVC](https://www.nvc.co.jp)
 
